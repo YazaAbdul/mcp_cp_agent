@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/edit_b"
+    tools:context=".ui.activities.user.Photos_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_50sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:visibility="visible">
+
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/front_view" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/top_view" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/side_view" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/three_d_view" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/front_view" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/side_view" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/three_d_view" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Enter Your Details"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Name"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:hint="Enter Name"
+                        android:inputType="text" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Email"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:hint="Enter Email"
+                        android:inputType="textEmailAddress" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Mobile Number"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:hint="Enter Mobile Number"
+                        android:inputType="phone"
+                        android:maxLength="10" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.AppCompatCheckBox
+                            android:id="@+id/checkbox"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="@dimen/_200sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_toRightOf="@id/checkbox"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text="Get more option. Allow other advertisers with similar properties to contact you"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </RelativeLayout>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="By continue, i agree to Precise T&amp;C"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10ssp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/edit_f"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            tools:ignore="DisableBaselineAlignment,HardcodedText,RtlHardcoded">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:background="@drawable/bg_edit_box"
+                    android:text="Request More Photos"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:background="@drawable/bg_edit_box"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Enquiry Now"
+                    android:textColor="@color/white"
+                    tools:ignore="UnusedAttribute" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/homeRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/home_"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Home"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+
+        <RelativeLayout
+            android:id="@+id/purchaseRLID"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/purchase"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Purchase Details"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+
+
+        <RelativeLayout
+            android:id="@+id/cpRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/purchase"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Associate Profile"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+
+        <RelativeLayout
+            android:id="@+id/cpLoginRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/purchase"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Add Associate"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/myAccountRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:visibility="gone"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/user"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="My Account"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+
+        <RelativeLayout
+            android:id="@+id/makePaymentRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:visibility="gone"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/credit_card"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Make Payment"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/forgenetRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+
+                    android:backgroundTint="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/password_white"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Change Password "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/logoutRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/log_out"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Logout"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+        <RelativeLayout
+            android:id="@+id/privaypolicyRLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables,UselessParent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/user"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10ssp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/edit_b" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/versionTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Version : 1.0.0.1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

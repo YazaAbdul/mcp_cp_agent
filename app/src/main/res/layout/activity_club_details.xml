@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.cp.ClubDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/header_attendance"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/edit_b"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="4">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/titleTVID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Achievement Target"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"
+                tools:ignore="HardcodedText"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"/>
+
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:background="@color/edit_b"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/offerTVID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"
+                android:text="Achievement Rank"
+                tools:ignore="HardcodedText"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"/>
+
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:background="@color/edit_b"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/createdTVID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="Club Benefits"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"
+                tools:ignore="HardcodedText"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"/>
+
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:background="@color/edit_b"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/dateTVID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="Ach"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"
+                tools:ignore="HardcodedText"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/edit_b"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/clubDetailsRVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noDataTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/edit_b"
+        android:visibility="gone"
+        android:fontFamily="@font/roboto_medium"
+        android:text="No Data Available"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

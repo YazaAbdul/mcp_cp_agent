@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MCP</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="Rs">\u20B9</string>
+    <string name="enter_customer_id">Enter Associate ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="no_internet">No Internet Connection......!</string>
+    <string name="add_task">Add Task</string>
+    <string name="status">Status</string>
+    <string name="task_name">Task name</string>
+    <string name="enter_task">Task name</string>
+    <string name="url">URL</string>
+    <string name="description">Description</string>
+    <string name="upload_take_photo">Upload/Take Photo</string>
+    <string name="submit">Submit</string>
+    <string name="created_date">Created date</string>
+    <string name="completed_date">Updated Date</string>
+    <string name="opps" tools:ignore="TypographyEllipsis">Oops...!</string>
+    <string name="something">Something went wrong at server side</string>
+    <string name="choose_image_from">Choose Image from</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="close">Close</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="home">Home</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="refresh">Refresh</string>
+    <string name="re_assign">Re Assign</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="father_name">Father Name</string>
+    <string name="spouse_name">Spouse Name</string>
+    <string name="nominee_s_name">Nominee\'s Name</string>
+    <string name="alternative_contact_number">Alternative Contact Number</string>
+    <string name="relationship_with_applicant">Relationship with applicant</string>
+    <string name="address_for_communication">Address </string>
+    <string name="permanent_address">Permanent Address</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="documents">Documents</string>
+    <string name="family_photo_graph">Family Photo graph</string>
+    <string name="add_family_desc">Add family photo graph by clicking menu icon</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="sex">Sex</string>
+    <string name="relation">Relation</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="welcome_back">Welcome</string>
+    <string name="sign_in_to_to_continue">Log in to continue</string>
+    <string name="enter_mobile_number">Email or mobile number</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="new_user">New user</string>
+    <string name="sign_up">Signup</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="attend">Enquiry Now</string>
+    <string name="share_using">Share Via</string>
+    <string name="nodata">No Data Available</string>
+    <string name="next">Next</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="no_results_found">No Result Found</string>
+    <string name="view">View</string>
+    <string name="number_10000">1200</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="notada">No Data Available</string>
+    <string name="search_here">Search here</string>
+    <string name="error_at">Something went wrong at server side</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

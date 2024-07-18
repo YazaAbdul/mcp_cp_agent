@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/melaUpdateLLID"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:weightSum="3"
+        android:foreground="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        tools:ignore="UnusedAttribute">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            tools:ignore="UselessParent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/associateCountTVID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_9ssp"
+                android:textColor="@color/black"
+                android:text="title"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="match_parent"
+            android:background="@color/edit_b"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            tools:ignore="UselessParent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/customersCountTVID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_9ssp"
+                android:textColor="@color/black"
+                android:text="title"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="match_parent"
+            android:background="@color/edit_b"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:ignore="UselessParent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/dateTVID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingStart="@dimen/_4sdp"
+                android:text="title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp"
+                tools:ignore="HardcodedText" />
+
+            <RelativeLayout
+                android:id="@+id/melaPlanDeleteRLID"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/delete" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="@color/edit_b"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

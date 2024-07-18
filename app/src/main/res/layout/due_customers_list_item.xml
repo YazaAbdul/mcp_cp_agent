@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/customerNameTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/black"
+        android:text="Customer Name"
+        tools:ignore="HardcodedText"/>
+
+    <RelativeLayout
+        android:id="@+id/whatsAppCallRLID"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/callRLID"
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center"
+        tools:ignore="UnusedAttribute">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/whatsapp"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/callRLID"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible"
+        tools:ignore="UnusedAttribute">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+
+            android:background="@drawable/bg_phone_circle_1">
+
+            <ImageView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/_phone"
+                android:backgroundTint="@color/white"
+                android:contentDescription="@string/app_name" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/edit_b"/>
+
+</RelativeLayout>

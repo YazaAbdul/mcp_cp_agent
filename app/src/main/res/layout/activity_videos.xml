@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/edit_f"
+    tools:context=".VideosActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/webivew_CV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true"
+            android:id="@+id/web_viewID"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/video_CV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardElevation="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </androidx.cardview.widget.CardView>
+
+<!--
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center_vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/ic_backarrow"
+                android:backgroundTint="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:id="@+id/backBtn"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/backBtn"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_16ssp"
+                android:text="Videos"
+                android:layout_toRightOf="@+id/backBtn"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+-->
+
+
+<!--
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_175sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintTop_toTopOf="parent">
+
+                    <VideoView
+                    android:id="@+id/videosVV"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/videoTitleTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_below="@+id/videosVV"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Video Title"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_175sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                    <VideoView
+                        android:id="@+id/videosVV2"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/_150sdp"/>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/videoTitleTVID2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_below="@+id/videosVV2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Video Title"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_175sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:layout_constraintTop_toTopOf="parent">
+
+                    <VideoView
+                        android:id="@+id/videosVV3"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/_150sdp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/videoTitleTVID3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_below="@+id/videosVV3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Video Title"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_175sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                app:layout_constraintTop_toTopOf="parent">
+
+                    <VideoView
+                        android:id="@+id/videosVV4"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/_150sdp"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/videoTitleTVID4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_below="@+id/videosVV4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Video Title"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+-->
+
+</LinearLayout>

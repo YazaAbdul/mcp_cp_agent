@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.cp.MelaUpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_attendance"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/edit_b"/>
+
+        <LinearLayout
+            android:id="@+id/melaUpdateLLID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            tools:ignore="UnusedAttribute">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                tools:ignore="UselessParent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/titleTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="@color/black"
+                    android:text="Title"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:background="@color/edit_b"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                tools:ignore="UselessParent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/descriptionTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="@color/black"
+                    android:text="Description"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0.7dp"
+                android:layout_height="match_parent"
+                android:background="@color/edit_b"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                tools:ignore="UselessParent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dateTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="@color/black"
+                    android:text="Date"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/edit_b"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/melaUpdateRVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noDataTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/edit_b"
+        android:textSize="@dimen/_14ssp"
+        android:visibility="gone"
+        android:fontFamily="@font/roboto_medium"
+        android:text="No data available"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

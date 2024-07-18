@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/header_color"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:id="@+id/backRLID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackground"
+            android:layout_weight="0.45"
+            tools:ignore="UnusedAttribute">
+
+                <ImageView
+                    android:layout_width="@dimen/_17ssp"
+                    android:layout_height="@dimen/_17ssp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_backarrow"
+                    android:backgroundTint="@color/black"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/headerTittleTVID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.1"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45"
+            android:background="@drawable/bg_back">
+
+            <RelativeLayout
+                android:id="@+id/okRLID"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:background="@drawable/bg_back">
+                <ImageView
+                    android:id="@+id/okPic"
+                    android:layout_width="@dimen/_18ssp"
+                    android:layout_height="@dimen/_18ssp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/verification_mark"
+                    android:backgroundTint="@color/black"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/refreshRLID"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?selectableItemBackground"
+                android:visibility="gone"
+                android:background="@drawable/bg_back"
+                tools:ignore="UnusedAttribute">
+                <ImageView
+                    android:layout_width="@dimen/_18ssp"
+                    android:layout_height="@dimen/_18ssp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_refresh"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.appbar.AppBarLayout>

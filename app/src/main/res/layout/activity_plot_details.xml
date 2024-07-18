@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50ssp"
+                android:background="#f5f5f5"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                tools:ignore="DisableBaselineAlignment,UselessParent">
+
+                <RelativeLayout
+                    android:id="@+id/backRLID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45">
+
+                    <ImageView
+                        android:id="@+id/backID"
+                        android:layout_width="@dimen/_17ssp"
+                        android:layout_height="@dimen/_17ssp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_backarrow"
+                        tools:ignore="ContentDescription,UnusedAttribute" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.55">
+
+                    <TextView
+                        android:id="@+id/headerTittleTVID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="@font/roboto_medium"
+                        android:gravity="center_vertical"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:text="header"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/plotBGID"
+                        android:layout_width="@dimen/_55ssp"
+                        android:layout_height="@dimen/_35ssp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:visibility="gone"
+                        android:layout_marginTop="@dimen/_10ssp"
+                        android:layout_marginBottom="@dimen/_10ssp"
+                        android:layout_marginEnd="@dimen/_10ssp"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8ssp"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:layout_marginEnd="@dimen/_8ssp"
+                android:layout_marginBottom="@dimen/_10ssp"
+                android:elevation="@dimen/_4ssp"
+                app:cardCornerRadius="@dimen/_5ssp"
+                tools:ignore="UnusedAttribute">
+
+                <View
+                    android:id="@+id/viewID"
+                    android:layout_width="@dimen/_5ssp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_10ssp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Plot No"
+                                android:textAllCaps="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/sftTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/viewID1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Plot size  "
+                                android:textAllCaps="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/plostsizeTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/viewID123"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:visibility="gone"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="UNIT PRICE  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/priceTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/viewID2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="PLOT FACING  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/costTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="BHK  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/bhkTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="FLOOR  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/floorTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="BUILTUP  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/builtupTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="PRICE PER SYD "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/unitpriceTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID7"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="UNIT COST  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/unitcostTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID8"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="PREMIUM  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/premiumTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID9"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="AMMENTIES  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/ammenitiesTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID10"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            android:visibility="gone"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="INFRA  "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/infraTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID11"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="TOTAL PRICE"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/totalTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+                        <View
+                            android:id="@+id/viewID12"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:visibility="gone"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="PREMIUM "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/viewID15"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:visibility="gone"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="Price per unit"
+                                android:textAllCaps="true"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/mainTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/viewID16"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:visibility="gone"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:visibility="gone"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="TOTAL AMOUNT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:id="@+id/croposTVID"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/_10ssp"
+                            android:paddingStart="@dimen/_10ssp"
+                            android:paddingEnd="@dimen/_10ssp"
+                            android:visibility="gone"
+                            android:weightSum="3"
+                            tools:ignore="UselessParent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.3"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="TOTAL "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.1"
+                                android:fontFamily="@font/roboto_medium"
+                                android:gravity="center"
+                                android:text=" : "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.6"
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingStart="@dimen/_10ssp"
+                                android:paddingEnd="@dimen/_10ssp"
+                                android:text="SFT "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5sp"
+                            android:background="#b4b4b4"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </ScrollView>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/pb"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

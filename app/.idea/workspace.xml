@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aaefc545-da10-4e12-add3-e5c15c972475" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[698H7T8SVCBUSCNV]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1idiVWepqA3LScJ0s80fTaJsrKk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="realme-rmx1831-7P5SHE55AQ79KJKB" />
+    <property name="DEBUGGABLE_PROCESS" value="com.realestate_customer.android" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="7P5SHE55AQ79KJKB" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-26T09:45:50.664Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Precise Developers CRM/app" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1372554033">
+      <recent name="com.realestate_customer.android.ui.activities" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.svadha_customer.android.ui.models" />
+      <recent name="com.realestate_customer.android.ui.activities.cp" />
+      <recent name="com.realestate_customer.android.ui.adapter" />
+    </key>
+    <key name="android.template.-805457796">
+      <recent name="com.realestate_customer.android.ui.activities.cp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\AndroidStudioProjects\Precise Developers\Precise Developers Customer\app\src\main\res\drawable" />
+      <recent name="C:\Users\Dell\AndroidStudioProjects\Svadha\Svadha Customer APP\Svadha Customer APP\app\src\main\res\drawable" />
+      <recent name="C:\Users\acer\AndroidStudioProjects\Avani\Avani Customer App\Avani Customer\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Precise_Developers_Customer.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaefc545-da10-4e12-add3-e5c15c972475" name="Default Changelist" comment="" />
+      <created>1602243893335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602243893335</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1610453373054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610453373054" />
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1610433665423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1610433665423" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611638750813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1611638750813" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614334593888">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614334593888" />
+    <state width="1286" height="122" key="GridCell.Tab.0.bottom" timestamp="1611659922222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611659922222" />
+    <state width="1286" height="122" key="GridCell.Tab.0.center" timestamp="1611659922222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611659922222" />
+    <state width="1286" height="122" key="GridCell.Tab.0.left" timestamp="1611659922222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611659922222" />
+    <state width="1286" height="122" key="GridCell.Tab.0.right" timestamp="1611659922222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611659922222" />
+    <state width="1286" height="122" key="GridCell.Tab.1.bottom" timestamp="1611659922223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611659922223" />
+    <state width="1286" height="122" key="GridCell.Tab.1.center" timestamp="1611659922223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1611659922223" />
+    <state width="1286" height="122" key="GridCell.Tab.1.left" timestamp="1611659922223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1611659922223" />
+    <state width="1286" height="122" key="GridCell.Tab.1.right" timestamp="1611659922223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1286" height="122" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1611659922223" />
+    <state x="314" y="63" width="737" height="602" key="find.popup" timestamp="1611638516498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="314" y="63" width="737" height="602" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1611638516498" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/realestate_customer/android/ui/activities/MainActivity.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/realestate_customer/android/ui/activities/cp/LeadsCompletedView.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/realestate_customer/android/ui/activities/cp/LeadsCompletedView.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/realestate_customer/android/ui/fragments/FragmentPurchaseDetails.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/realestate_customer/android/ui/fragments/FragmentPurchaseDetails.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/precise_customer/android/ui/activities/cp/LeadsViewActivity.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/realestate_customer/android/ui/fragments/FragmentPurchaseDetails.java</url>
+          <line>259</line>
+          <properties class="com.realestate_customer.android.ui.fragments.FragmentPurchaseDetails" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>238</line>
+          <properties class="com.svadha_customer.android.ui.fragments.FragmentDashBoard" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentDashBoard.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>234</line>
+          <properties class="com.svadha_customer.android.ui.fragments.FragmentCP" />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/svadha_customer/android/ui/fragments/FragmentCP.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

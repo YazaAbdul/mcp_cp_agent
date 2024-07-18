@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.cp.CreativesActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_attendance" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/siteVisitRVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:divider="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:smoothScrollbar="true"
+                android:paddingBottom="@dimen/_70sdp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/pb"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noDataTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/_14ssp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/edit_b"
+        android:text="No Data Available"
+        tools:ignore="HardcodedText"
+        android:visibility="gone"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/fab_add"
+        app:fabSize="auto"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+</RelativeLayout>

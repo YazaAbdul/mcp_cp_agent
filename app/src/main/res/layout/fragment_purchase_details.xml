@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/mainViewRLID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/header" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                app:cardCornerRadius="@dimen/_1sdp"
+                app:cardElevation="@dimen/_1sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/personalViewLLID"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
+
+                        <include layout="@layout/screen_personal_details" />
+
+                        <include layout="@layout/screen_purchase_details" />
+
+                        <include layout="@layout/screen_mile_stone_history" />
+
+                        <include layout="@layout/screen_other_payment_history" />
+
+                        <include layout="@layout/screen_application_check_list" />
+
+                        <include layout="@layout/screen_bank_check_list" />
+
+                        <include layout="@layout/screen_agreements" />
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/personalPB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_65sdp"
+                        android:layout_marginBottom="@dimen/_65sdp"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/_2ssp"
+                android:layout_marginBottom="@dimen/_60sdp"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="end"
+                android:text="Version : 1.0.0.1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/noDataTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/no_data_available"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/uploadDocs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:backgroundTint="@color/colorPrimary"
+        android:visibility="gone"
+        android:src="@drawable/ic_edit"
+        tools:ignore="UnusedAttribute" />
+
+
+</RelativeLayout>

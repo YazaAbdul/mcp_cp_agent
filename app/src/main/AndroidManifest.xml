@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mcpcustomer_post_new_ps_n.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/crmappicon_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+        <activity android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.WebViewTes"></activity>
+        <activity android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.DirectTeamActivity_inside"></activity>
+        <activity android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.PrivacyPolicy" />
+        <activity android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.ChangePassword" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.DirectTeamActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.SiteInChargesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.CreateSiteVisitActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.CreativesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.SiteVisitActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.DueCustomersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.ClubDetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.AgentUpdateActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.CPSaleHistory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.MelaUpdateActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.AvailabilityActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.DirectingReportingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.BonanzaActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.ViewGallery"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.VideosNextScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.PhotosTabLayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.VideosRecyclerView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.VideosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.FloorPlans"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.FloorPlansActivityRcv"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.LeadsCompleteView" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.ViewAadharCardImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.ViewPanCardImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.fragments.FragmentPurchaseDetails"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.MakePaymentActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.checklist.CustomerDocumentsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.MyAccountActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.sales.SearchActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.sales.SubCategoriesActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.ForgotActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.RegistrationActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.ViewImageActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.checklist.CustomerDetailsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.LoginActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustNothing|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.user.SplashScreenActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.sales.AvailabilityDetailsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.sales.PlotDetailsActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|stateHidden"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.CreateLeadActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.DashBoardMainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.LeadsViewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.SearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.CpLoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mcpcustomer_post_new_ps_n.android.ui.activities.cp.CPTravel_Request"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- Camera Image Paths -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

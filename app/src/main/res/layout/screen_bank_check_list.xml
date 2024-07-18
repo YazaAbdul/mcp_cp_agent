@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_5sdp"
+        android:paddingStart="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_4sdp"
+        android:text="Banker Check List"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/checkListRCID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/checkListPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:visibility="gone" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/checkListTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="@dimen/_13ssp"
+            android:text="@string/no_data_found"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

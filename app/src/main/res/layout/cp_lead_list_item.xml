@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/newMainLeadView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_back"
+        android:paddingStart="@dimen/_3sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:id="@+id/imageViewIcon"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:background="@drawable/bg_transparent_circle"
+            tools:ignore="ContentDescription">
+
+            <TextView
+                android:id="@+id/iconTitleID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:maxLength="1"
+                android:text="A"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_8ssp"
+            android:layout_toEndOf="@+id/imageViewIcon"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/newLeadNameTVID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Customer Name"
+                android:textColor="@color/bg_dark"
+                android:textSize="@dimen/_13ssp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2ssp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/newProjectNameTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Requirement"
+                    android:textColor="#747474"
+                    android:textSize="@dimen/_8ssp"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+                <TextView
+                    android:id="@+id/newActivityDateTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="18-jun"
+                    android:textColor="#747474"
+                    android:textSize="@dimen/_7ssp"
+                    android:visibility="gone"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Requirement"
+                    android:textColor="#747474"
+                    android:textSize="@dimen/_8ssp"
+                    tools:ignore="HardcodedText,SmallSp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/newPhoneRL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_10ssp">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/bg_phone_circle">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/_phone"
+                    android:backgroundTint="@color/white"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#b4b4b4" />
+
+</LinearLayout>

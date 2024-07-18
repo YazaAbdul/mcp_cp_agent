@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainViewLLID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.checklist.CustomerDocumentsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/header" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/familyCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/family_photo_graph"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/add_family_desc"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/familyPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/familyPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/familyPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/familyVerification"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/passportCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Passport Size Photo"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText,TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Add Passport Size Photo by clicking menu icon"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/passportPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/passportPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/passportPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/passportVerification"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="ID Proof ( PAN )"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText,TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Add ID Proof ( PAN ) by clicking menu icon"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/idPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/idPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/idPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/idVerification"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addressCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Address Proof(Aadhar &amp; Any)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText,TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Add Address Proof(Aadhar &amp; Any) by clicking menu icon"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/addressPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/addressPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/addressPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/addressVerification"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pdcCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="PDC Cheques"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText,TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Add PDC Cheques by clicking menu icon"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/pdcPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/pdcPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/pdcPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/pdcVerification"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/formCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Form 32 A"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText,TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Add Form 32 A by clicking menu icon"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/formPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_"
+                            tools:ignore="TooManyViews" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/formPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/formPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/formVerificationIMVID"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/requisitionCVID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_8sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Requisition Form"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText,TooDeepLayout" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Add Requisition Form by clicking menu icon"
+                            android:textColor="@color/edit_7"
+                            android:textSize="@dimen/_8ssp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/requisitionPicRLID"
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_menu_" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/requisitionPicRLID">
+
+                        <ProgressBar
+                            android:id="@+id/requisitionPB"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/requisitionVerification"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/ic_right"
+                            android:visibility="gone"
+                            tools:ignore="UnusedAttribute" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/bg_login_btn"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                tools:ignore="TooManyViews" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

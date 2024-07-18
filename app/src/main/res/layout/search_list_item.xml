@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_13sdp"
+    android:id="@+id/searchItemLLID">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        tools:ignore="UselessParent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="@dimen/_13sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/history"
+            android:backgroundTint="@color/edit_7"
+            android:contentDescription="@string/app_name"
+            tools:ignore="UnusedAttribute" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/searchSuggestionTVID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/searchIcon"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

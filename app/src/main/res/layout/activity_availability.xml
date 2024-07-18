@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_attendance"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/availableLVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:smoothScrollbar="true" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="@style/CircularProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/noData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif"
+            android:text="@string/no_data_available"
+            android:textSize="@dimen/_14ssp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/spinnerID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40ssp"
+            android:layout_marginStart="@dimen/_15ssp"
+            android:layout_marginTop="@dimen/_25ssp"
+            android:layout_marginEnd="@dimen/_25ssp"
+            android:background="@drawable/bg_box"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="@dimen/_5ssp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark" />
+
+            <Spinner
+                android:id="@+id/projectSPID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_8ssp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                tools:ignore="UnusedAttribute" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40ssp"
+            android:layout_below="@+id/spinnerID"
+            android:layout_marginStart="@dimen/_15ssp"
+            android:layout_marginTop="@dimen/_8ssp"
+            android:layout_marginEnd="@dimen/_25ssp"
+            android:background="@drawable/bg_login_btn1"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

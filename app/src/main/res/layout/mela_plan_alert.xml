@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_2sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_medium"
+                android:textSize="@dimen/_14ssp"
+                android:text="Mela Plan"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:ignore="HardcodedText" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/customerETID"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:inputType="phone"
+                android:hint="Enter Customer Count"
+                android:paddingStart="@dimen/_5sdp"
+                android:background="@drawable/bg_edit_box"
+                tools:ignore="HardcodedText,RtlSymmetry" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/associateETID"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:hint="Enter Associate Count"
+                android:paddingStart="@dimen/_5sdp"
+                android:inputType="phone"
+                android:background="@drawable/bg_edit_box"
+                tools:ignore="HardcodedText,RtlSymmetry" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:background="@drawable/bg_login_btn"
+                android:textColor="@color/white"
+                android:text="@string/submit"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

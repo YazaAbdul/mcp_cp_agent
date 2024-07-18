@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLLID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.activities.user.MyAccountActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/header" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal"
+                android:padding="@dimen/_8sdp"
+                android:weightSum="3">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:text="@string/name"
+                    android:textSize="@dimen/_11ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/mynameTVID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:maxLines="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal"
+                android:padding="@dimen/_8sdp"
+                android:weightSum="3">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:text="Email"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/myemailTVID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal"
+                android:padding="@dimen/_8sdp"
+                android:weightSum="3">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/androidx.appcompat.widget.AppCompatTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:text="Mobile Number"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/mymobileTVID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:text="@string/password"
+                    android:textSize="@dimen/_11ssp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/mypasswordETID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="start"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="Autofill,LabelFor,UnusedAttribute" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:background="@drawable/bg_box"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center_vertical"
+                    android:text="Confirm Password"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/myconfirmpasswordETID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:backgroundTint="@android:color/transparent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="start"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11ssp"
+                    tools:ignore="Autofill,LabelFor,UnusedAttribute" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/bg_login_btn"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/_2sdp"
+    android:paddingTop="@dimen/_2sdp"
+    android:paddingEnd="@dimen/_2sdp"
+    android:paddingBottom="@dimen/_2sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:background="@drawable/bg_box"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:elevation="@dimen/_1sdp"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/_4sdp"
+        tools:ignore="UnusedAttribute">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="@dimen/_8sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/amenitiesIVID"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_4sdp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/amenitiesTypeTVID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9ssp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

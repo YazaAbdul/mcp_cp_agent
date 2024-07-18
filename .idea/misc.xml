@@ -1,0 +1,103 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/_bg_box.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/_date.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_back.xml" value="0.1435" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_creatives.xml" value="0.155" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_direct_meet.xml" value="0.1595" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_edit_box.xml" value="0.149" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_login_btn1.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_login_btn2.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_phone_circle_1.xml" value="0.1395" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_selected_circel.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_toast.xml" value="0.128" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_un_selected_circel.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_with_creatives_btn.xml" value="0.135" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/bg_without_creatives_btn.xml" value="0.135" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/ic_arrow_forward.xml" value="0.1395" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.168" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/ic_ok.xml" value="0.1595" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/ic_refresh.xml" value="0.1435" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/text_color_selector.xml" value="0.135" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/thumb_selector.xml" value="0.149" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/drawable/track_selector.xml" value="0.149" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_agent_update.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_amenities.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_availability.xml" value="0.17777777777777778" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_availability_details.xml" value="0.1" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_bonanza.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_c_p_sale_history.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_c_p_travel__request.xml" value="0.2" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_club_details.xml" value="0.20625" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_create_site_visit.xml" value="0.25" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_creatives.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_direct_team.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_directing_reporting.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_due_customers.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_login.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_mela_update.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_photos_tab_layout.xml" value="0.1" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_plot_details.xml" value="0.20833333333333334" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_registration.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_site_incharges.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_site_visit.xml" value="0.2" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_sub_categories.xml" value="0.19814814814814816" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/activity_videos.xml" value="0.1" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/alert_business_whatsapp.xml" value="0.19814814814814816" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/bonanza_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/club_details_item.xml" value="0.22239583333333332" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/commission_withdraw_request.xml" value="0.22239583333333332" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/content_main.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/cp_activity_create_lead.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/cp_activity_login_form.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/cp_activity_search.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/cp_lead_list_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/cp_main.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/creatives_recycler_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/custom_spinner_list_items.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/custom_spinner_view.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/dashboard_side_menu_list_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/designations_alert.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/direct_team_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/due_customer_project_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/due_customers_list_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/fragment_cp.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/fragment_creatives.xml" value="0.19833178869323448" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/fragment_dash_board.xml" value="0.1" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/fragment_purchase_details.xml" value="0.20925925925925926" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/header.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/header_attendance.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/mela_plan_alert.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/mela_plans_item.xml" value="0.22239583333333332" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/mela_update_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/menu_projects_list.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/nav_header.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/new_availability_list_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/progressbar1.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/projects_adapter_list_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/refer_customer_alert.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/request_material_alert.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/screen_agreements.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/screen_application_check_list.xml" value="0.20925925925925926" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/screen_bank_check_list.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/screen_other_payment_history.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/screen_personal_details.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/screen_purchase_details.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/site_incharges_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/site_visit_item.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/toast.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/layout/veichle_list_item_adapter.xml" value="0.2234375" />
+        <entry key="..\:/01_Tranquil Projects/80_Imark_Project/Imark Customer/app/src/main/res/menu/menu.xml" value="0.2234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

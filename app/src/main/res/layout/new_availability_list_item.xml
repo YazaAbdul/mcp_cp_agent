@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/mainDisplayRLID"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:clickable="true"
+        android:foreground="?android:selectableItemBackground"
+        android:orientation="vertical"
+        tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+        <TextView
+            android:id="@+id/projectNameTVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="8dp"
+            android:layout_marginRight="@dimen/_26sdp"
+            android:text="Customer Name"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/edit_b" />
+
+    </RelativeLayout>
+
+</LinearLayout>

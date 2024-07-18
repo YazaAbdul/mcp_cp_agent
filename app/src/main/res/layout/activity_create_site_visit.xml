@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLLID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40ssp"
+        android:background="@color/header_color"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_50ssp"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/backRLID"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_back">
+
+                <ImageView
+                    android:layout_width="@dimen/_18ssp"
+                    android:layout_height="@dimen/_18ssp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_backarrow"
+                    android:backgroundTint="@color/black"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_145sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:src="@drawable/striplogo" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_50ssp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true">
+
+            <RelativeLayout
+                android:id="@+id/okRLID"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_back"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_ok"
+                    android:backgroundTint="@color/black"
+                    android:contentDescription="@string/app_name"
+                    tools:ignore="UnusedAttribute" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/nameTVID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Create Site Visit"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_17ssp"
+                    tools:ignore="HardcodedText" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nameTVID"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:id="@+id/etCustomerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/bg_direct_meet"
+                        android:hint="Enter Customer Name"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <EditText
+                        android:id="@+id/etContactNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/bg_direct_meet"
+                        android:hint="Enter Customer Number"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                    <EditText
+                        android:id="@+id/etCompanyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="10dp"
+                        android:visibility="gone"
+                        android:background="@drawable/bg_direct_meet"
+                        android:hint="Enter Agent Name"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="@dimen/_12ssp" />
+
+
+                    <EditText
+                        android:id="@+id/ibaContactETID"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/bg_direct_meet"
+                        android:hint="Enter Agent Number"
+                        android:inputType="number"
+                        android:visibility="gone"
+                        android:maxLength="10"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/bg_direct_meet">
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/projectSPID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </RelativeLayout>
+
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="2">
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="Interested"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_weight="1"
+                            android:checked="false"
+                            android:text="Not interested"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText" />
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/btnSubmit"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/bg_login_btn"
+                        android:text="@string/submit"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/_12ssp"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:id="@+id/imageRLID"
+                        android:layout_width="@dimen/_180sdp"
+                        android:layout_height="@dimen/_150sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@drawable/bg_direct_meet">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="Upload Image"
+                            android:textColor="@color/edit_b"
+                            android:textSize="@dimen/_15ssp"
+                            tools:ignore="HardcodedText" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imageID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>
